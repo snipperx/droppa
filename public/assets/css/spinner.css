@@ -1,0 +1,48 @@
+
+body {
+    text-align: center;
+}
+
+.inputarrow-prev,
+.inputarrow-next {
+    color: #000;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.inputarrow-prev {
+    margin-right: 8px;
+}
+
+.inputarrow-next {
+    margin-left: 8px;
+}
+
+.inputarrow-disabled {
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.custom-prev,
+.custom-next {
+    color: #00c;
+    font-weight: bold;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.custom-prev {
+    margin-right: 12px;
+}
+
+.custom-next {
+    margin-left: 12px;
+}
+
+.custom-disabled {
+    visibility: hidden;
+}
